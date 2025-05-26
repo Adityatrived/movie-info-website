@@ -1,0 +1,30 @@
+# .gitignore
+
+# Node.js dependencies
+node_modules/
+
+# Environment variable files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+
+# Optional: coverage and test output
+coverage/
+.nyc_output/
+
+# Optional: lock files
+package-lock.json
+yarn.lock
