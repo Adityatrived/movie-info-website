@@ -5,8 +5,10 @@
 }
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  
+   --primary-color: #010038; 
+  --secondary-color: #D3D5D7;
+   
 }
 
 body {
@@ -50,19 +52,21 @@ main {
 .movie {
   width: 300px;
   margin: 1rem;
-  border-radius: 3px;
-  box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px; 
+  box-shadow: 0 4px 24px 0 rgba(128, 0, 255, 0.5); 
   background-color: var(--secondary-color);
   position: relative;
   overflow: hidden;
 }
+
+
 
 .movie img {
   width: 100%;
 }
 
 .movie-info {
-  color: #eee;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,4 +137,11 @@ main {
 }
 .no-results {
   color: white;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  margin-top: 2rem;
+  font-size: 1rem;
 }
